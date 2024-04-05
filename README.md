@@ -6,9 +6,6 @@ Drishti is an AI-powered smart glasses solution designed to empower the blind an
 
 ## Leading Causes of Blindness
 
-Some examples of causing these diseases are:
-
-- Blindness
 - Mascular Degeneartion
 - Diabetic Retinopathy
 - Glaucoma
