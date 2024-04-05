@@ -2,7 +2,7 @@
 
 _"Empowering the blind to navigate a sightless world – because every journey begins with a step, even if taken in the dark."_
 
-Drishti" is an AI-powered smart glasses solution aimed at empowering the blind and visually impaired to navigate the world around them. Through innovative features and community-building capabilities, Drishti enhances accessibility and fosters inclusivity.
+Drishti is an AI-powered smart glasses solution aimed at empowering the blind and visually impaired to navigate the world around them. Through innovative features and community-building capabilities, Drishti enhances accessibility and fosters inclusivity.
 
 ## Leading Causes of Blindness
 
