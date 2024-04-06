@@ -1,5 +1,3 @@
-
-
 import cv2
 import requests
 import time
@@ -13,6 +11,8 @@ import re
 import io
 import openai
 from openai import OpenAI
+import os
+from dotenv import load_dotenv
 
 #
 import pyglet
@@ -56,6 +56,7 @@ def encode_image(image_path):
 def image_to_ai(image_path,command):
     # print(command)
     # Getting the base64 string
+    api_key=os.getenv("API_OPEN_AI")
     base64_image = encode_image(image_path)
 
     headers = {
@@ -229,6 +230,29 @@ def retrieve_call(com):
             speak("Read command initiated")
             text=pi_ocr()
             return text
+        if com_list[0] == commands and (commands=="analyze" or commands=="analyse" or commands=="Analyze" or commands=="Analyse"):
+            print(commands)
+            speak("Analyze command initiated")
+            response=analyze()
+            speak(response)
+            return response,200
+        if com_list[0] == commands and (commands=="maps" or commands=="Maps"):
+            print(commands)
+            speak("Searching for maps near you")
+            # response=scene()
+            speak(response)
+            return response,200
+        if com_list[0] == commands and (commands=="find" or commands=="Find"):
+            print(commands)
+            speak("find command initiated")
+            normalize_call(com_list)
+            find_object(com)
+            return True,200
+        if com_list[0] == commands and (commands == "Call" or commands=="call"):
+            print(commands)
+            # speak("Calling nearest volunteer")
+            call_volunteer()
+            return "Success",200
  
 
 # def find_object(desc):
@@ -237,6 +261,63 @@ def retrieve_call(com):
 #     output=image_to_ai("captured_frame.jpg",str(sentence))
 #     print(output)
 #     speak(str(output))
+def scene(desc):
+    extract_frame()
+    speak("Analyzing the scene")
+    output=image_to_ai("captured_frame.jpg",desc)
+    print(output)
+    speak(str(output))
+    print(output) 
+    return output
+
+def analyze():
+
+    extract_frame()
+    speak("How can I help you?")
+    response=requests.get('http://192.168.127.103:5000/consume_audio')
+    # print("Response is ",response)
+    if response:
+        print(response.json())
+        com=response.json().get("text")
+        # com=requests.get("http://192.168.127.103:5000/consume_audio")
+        # print(com)
+        print(type(com))
+        com_normal=normalize_speech(str(com))
+        print(com_normal)
+        output=image_to_ai("captured_frame.jpg",str(com_normal))
+        print(output)
+        speak(str(output))
+        print(output) 
+    else:
+        print("No response")
+
+def find_object(desc):
+    extract_frame()
+    sentence=desc+" in the following image and direct me or tell me how do i find that object as the following image is taken from my POV. Under 20 words"
+    output=image_to_ai("captured_frame.jpg",str(sentence))
+    print(output)
+    speak(str(output))
+
+def analyze_test_v1():
+
+    # extract_frame()
+    # speak("How can I help you?")
+    # response=requests.get('http://192.168.127.103:5000/consume_audio')
+    # print("Response is ",response)
+    if True:
+        # print(response.json())
+        # com=response.json().get("text")
+        com="Describe me the following image and every detail about it in detail."
+        # com=requests.get("http://192.168.127.103:5000/consume_audio")
+        # print(com)
+        # print(type(com))
+        # com_normal=normalize_speech(str(com))
+        com_normal=com
+        # print(com_normal)
+        output=image_to_ai("test.jpg",str(com_normal))
+        print(output)
+        # speak(str(output))
+        # print(output) 
 
 
 
