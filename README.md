@@ -60,9 +60,15 @@ This feature allows visually impaired individuals to connect with volunteers wit
 Drishti supports over 40 languages, including regional languages, ensuring accessibility for users worldwide.
 This multilingual support enhances the inclusivity of Drishti, catering to the diverse linguistic needs of visually impaired individuals across different regions.
 
-  
 ## Connecting user and volunteers
 To help with navigating, people can connect with visually challenged people within a radius of 100 meter to 1.5 kilometres. We respect these people's right to privacy, thus we only share information that is absolutely necessary. And through a video conversation with the user, the volunteers can assist them. The ability for volunteers to create checkpoints in the surrounding areas is one of the application's best features. For instance, if there is road construction, the volunteer can mark the location and let the blinds here have an alert while they are travelling by.
+
+## Volunteer App UI
+<img src="https://github.com/mukundsolanki/drishti/assets/113979215/cece4151-a7f6-40eb-8ad6-804ec7c62f06" alt="ui1" width="250" height="500">
+
+
+<img src="https://github.com/mukundsolanki/drishti/assets/113979215/265e4f80-406d-43b7-8d3e-2755d67cac20" alt="ui1" width="250" height="500">
+
 
 ## Economizing:
 - Drishti costs approximately 2.5% of what our closest competitor, Envision Glasses, charges.
