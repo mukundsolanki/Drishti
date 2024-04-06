@@ -5,8 +5,7 @@ _"Empowering the blind to navigate a sightless world – because every journey b
 Drishti is an AI-powered smart glasses solution aimed at empowering the blind and visually impaired to navigate the world around them. Through innovative features and community-building capabilities, Drishti enhances accessibility and fosters inclusivity.
 
 ## Leading Causes of Blindness
-
-- Mascular Degeneartion
+- Mascular Degeneration
 - Diabetic Retinopathy
 - Glaucoma
 - Cataracts
@@ -19,13 +18,27 @@ Drishti is an AI-powered smart glasses solution aimed at empowering the blind an
 - Dependency on physical presence for assistance
 - Lack of contextual visual information
 
+
 ## Statistics:
 - Approximately 2.2 billion people globally were predicted to be blind or visually impaired in 2019, with nearly 1 billion affected by avoidable conditions.
 - Efforts in global health policies, preventative measures, and accessible eye care are crucial to address these issues.
+  
 
 ## Economic Burden:
 - Vision impairment poses a significant global financial burden, with an estimated annual productivity loss of about US$ 411 billion.
 - Drishti aims to address the economic burden by providing an affordable alternative to existing solutions.
+
+
+## Digital Anonymity in Drishti
+
+### Electronic Health Records (EHR) and Electronic Medical Records (EMR):
+Drishti prioritizes digital anonymity by securely managing Electronic Health Records (EHR) and Electronic Medical Records (EMR) of visually impaired individuals.
+By adopting robust encryption techniques and access controls, Drishti ensures the confidentiality and privacy of sensitive health information, promoting digital anonymity and compliance with healthcare regulations.
+
+### Peer-to-Peer (P2P) Communication:
+Drishti facilitates peer-to-peer (P2P) communication between visually impaired users and volunteers, fostering collaboration and support within a secure and private environment.
+Through end-to-end encrypted P2P communication channels, Drishti enables real-time assistance and information sharing while preserving digital anonymity and protecting user privacy
+  
 
 ## Our Solution:
 #### READ Feature:
@@ -46,9 +59,9 @@ This feature allows visually impaired individuals to connect with volunteers wit
 #### Multilingual Support:
 Drishti supports over 40 languages, including regional languages, ensuring accessibility for users worldwide.
 This multilingual support enhances the inclusivity of Drishti, catering to the diverse linguistic needs of visually impaired individuals across different regions.
+
   
 ## Connecting user and volunteers
-
 To help with navigating, people can connect with visually challenged people within a radius of 100 meter to 1.5 kilometres. We respect these people's right to privacy, thus we only share information that is absolutely necessary. And through a video conversation with the user, the volunteers can assist them. The ability for volunteers to create checkpoints in the surrounding areas is one of the application's best features. For instance, if there is road construction, the volunteer can mark the location and let the blinds here have an alert while they are travelling by.
 
 ## Economizing:
