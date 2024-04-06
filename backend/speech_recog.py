@@ -29,8 +29,6 @@
 
 #     transcribe_audio(api_key, audio_file_path)
 
-# $env:GOOGLE_API_KEY="c32f73aeaa10b236a61dd9159df1b63ea17647af"
-# $env:GOOGLE_APPLICATION_CREDENTIALS="./credentials.json"
 
 
 
