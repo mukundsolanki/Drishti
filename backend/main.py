@@ -1,5 +1,4 @@
-  # $env:GOOGLE_APPLICATION_CREDENTIALS=
-# $env:GOOGLE_API_KEY=
+
 
 import cv2
 import requests
@@ -42,7 +41,7 @@ global_location={
 
 user_location={'latitude':25.234,'longitude':34.454}
 
-api_key = "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"
+
 
 
 app = Flask(__name__)
@@ -185,7 +184,7 @@ def pi_ocr():
     extract_frame()
     speak("Image captured")
     speak("Processing your request")
-    text=image_to_ai("captured_frame.jpg","Only tell me what's written in the image in a single paragraph no special characters not even . or ,. Do all this under 40 words.")
+    text=image_to_ai("captured_frame.jpg","Only tell me what's written in the image in a single paragraph no special characters not even . or ,.")
     # print(type(text))
     new_text=normalize_speech(text)
     speak(new_text)
