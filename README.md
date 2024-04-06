@@ -28,12 +28,24 @@ Drishti is an AI-powered smart glasses solution aimed at empowering the blind an
 - Drishti aims to address the economic burden by providing an affordable alternative to existing solutions.
 
 ## Our Solution:
-- **READ:** Converts text to context-based audio using OCR, enabling users to listen to text-based content.
-- **Scene Analysis:** Provides a brief description of surroundings, enhancing situational awareness.
-- **Vision-based Authorization System:** Offers a unique and dynamic system for user authentication.
-- **Indoor Navigation System (INS):** Helps users navigate indoor environments efficiently.
-- **POV Vision Streaming Application:** Allows location-based volunteer selection with live location and video streaming.
-- **Multilingual Support:** Supports 40+ languages, including regional languages, enhancing accessibility.
+#### READ Feature:
+Drishti's READ feature utilizes Optical Character Recognition (OCR) technology to convert text into context-based audio, enabling users to listen to text-based content such as mail, signboards, recipes, and more.
+This feature ensures that visually impaired individuals can access and comprehend textual information in their environment effortlessly.
+#### Scene Analysis:
+Drishti provides a brief description of surroundings through scene analysis, enhancing situational awareness for users.
+This capability allows users to gain a better understanding of their environment, improving their ability to navigate and interact with the world around them.
+#### Vision-based Authorization System:
+Drishti has developed a unique and dynamic vision-based authorization system, ensuring secure access to the device and its features.
+This authentication mechanism utilizes advanced vision algorithms to authenticate users, providing a seamless and secure user experience.
+#### Indoor Navigation System (INS):
+Drishti's Indoor Navigation System (INS) assists users in navigating indoor environments with ease and efficiency.
+By leveraging real-time location data and navigation algorithms, Drishti guides users through complex indoor spaces, enhancing their mobility and independence.
+#### POV Vision Streaming Application:
+Drishti offers a Point-of-View (POV) vision streaming application that enables location-based volunteer selection with live location and video streaming.
+This feature allows visually impaired individuals to connect with volunteers within a specific radius, facilitating real-time assistance and support.
+#### Multilingual Support:
+Drishti supports over 40 languages, including regional languages, ensuring accessibility for users worldwide.
+This multilingual support enhances the inclusivity of Drishti, catering to the diverse linguistic needs of visually impaired individuals across different regions.
   
 ## Connecting user and volunteers
 
