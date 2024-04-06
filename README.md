@@ -45,7 +45,8 @@ To help with navigating, people can connect with visually challenged people with
 - Envision Glasses subscription costs over 12,000 Rs per month, whereas Drishti costs approximately 500-800 Rs.
 - Drishti's modular design ensures better after-sales support and cost-effectiveness.
 
-## Hardware Specification:### Raspberry Pi Zero 2W:
+## Hardware Specification:
+### Raspberry Pi Zero 2W:
 The Raspberry Pi Zero 2W is a compact and affordable single-board computer developed by the Raspberry Pi Foundation.
 It features a Processor Broadcom BCM2710A1, 1GHz quad-core 64-bit Arm Cortex-A53 CPU.
 The upgraded processor offers up to 40% faster single-threaded performance and five times faster multi-threaded performance compared to the original Raspberry Pi Zero.
