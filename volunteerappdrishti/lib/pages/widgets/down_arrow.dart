@@ -34,6 +34,8 @@ class DownArrowDialog extends StatelessWidget {
           onPressed: () async {
             if (text.isNotEmpty) {
               var response = await http.post(
+                //  Uri.parse('http://192.168.127.246:8080/downward-arrow'),
+
                 Uri.parse('http://192.168.127.246:8080/downward-arrow'),
                 body: {'text': text},
               );

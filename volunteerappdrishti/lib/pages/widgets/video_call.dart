@@ -69,8 +69,11 @@ class _VideoConnectScreenState extends State<VideoConnectScreen> {
 
   void _getLocation() async {
     try {
+      // final response = await http.get(Uri.parse(
+      //     "http://192.168.95.67:8080/get_location")); //backend this machine
       final response = await http.get(Uri.parse(
-          "http://192.168.95.67:8080/get_location")); //backend this machine
+          "http://192.168.127.246:8080/get_location")); //backend this machine
+
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
         double latitude = double.parse(data['latitude'].toString());
@@ -94,8 +97,11 @@ class _VideoConnectScreenState extends State<VideoConnectScreen> {
 
   void _openModalSheet(BuildContext context) async {
     try {
+      // final response =
+      //     await http.get(Uri.parse("http://192.168.95.67:8080/user_info"));
       final response =
-          await http.get(Uri.parse("http://192.168.95.67:8080/user_info"));
+          await http.get(Uri.parse("http://192.168.127.246:8080/user_info"));
+
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
         String userInfoText = data['text'];

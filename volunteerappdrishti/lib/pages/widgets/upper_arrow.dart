@@ -34,6 +34,8 @@ class UpperArrowDialog extends StatelessWidget {
           onPressed: () async {
             if (text.isNotEmpty) {
               var response = await http.post(
+                //  Uri.parse('http://192.168.127.246:8080/upward-arrow'),
+
                 Uri.parse('http://192.168.127.246:8080/upward-arrow'),
                 body: {'text': text},
               );
