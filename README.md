@@ -64,10 +64,14 @@ This multilingual support enhances the inclusivity of Drishti, catering to the d
 To help with navigating, people can connect with visually challenged people within a radius of 100 meter to 1.5 kilometres. We respect these people's right to privacy, thus we only share information that is absolutely necessary. And through a video conversation with the user, the volunteers can assist them. The ability for volunteers to create checkpoints in the surrounding areas is one of the application's best features. For instance, if there is road construction, the volunteer can mark the location and let the blinds here have an alert while they are travelling by.
 
 ## Volunteer App UI
-<img src="https://github.com/mukundsolanki/drishti/assets/113979215/cece4151-a7f6-40eb-8ad6-804ec7c62f06" alt="ui1" width="250" height="500">
+
+<div style="display: flex; justify-content: space-around">
+  <img src="https://github.com/mukundsolanki/drishti/blob/91ad4027ce979aab2bdc88228c2a5277673cbd8b/drishticlient/assets/UI_1.gif" alt="UI_1" style="margin-right: 10px;" width="250" height="500">
+  <img src="https://github.com/mukundsolanki/drishti/blob/91ad4027ce979aab2bdc88228c2a5277673cbd8b/drishticlient/assets/UI_2.gif" alt="UI_1" style="margin-right: 10px;" width="250" height="500">
+  <img src="https://github.com/mukundsolanki/drishti/blob/0347e8f7b1c3843125d6b8c4500f6bca106e397f/drishticlient/assets/UI-3.gif" alt="UI_1" width="250" height="500">
+</div>
 
 
-<img src="https://github.com/mukundsolanki/drishti/assets/113979215/265e4f80-406d-43b7-8d3e-2755d67cac20" alt="ui1" width="250" height="500">
 
 
 ## Economizing:
