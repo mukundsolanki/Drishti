@@ -42,7 +42,7 @@ class _QrCodeWidgetState extends State<QrCodeWidget> {
             size: 200.0,
           ),
           SizedBox(height: 20),
-          Text('Your IP Address: $ipAddress'),
+          // Text('Your IP Address: $ipAddress'),
         ],
       ),
     );
