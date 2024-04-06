@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
         fontFamily: "Cairo",
       ),
       home: MyHomePage(
-        title: 'Avinya Volunteer App',
+        title: 'Drishti Volunteer App',
         ipAddress: _ipAddress,
       ),
       debugShowCheckedModeBanner: false,
