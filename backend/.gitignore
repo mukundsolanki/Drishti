@@ -1,0 +1,6 @@
+/.gitignore
+/.env
+/capture_frame.jpg
+/output.mp3
+/credentials.json
+/pi_temp.py
