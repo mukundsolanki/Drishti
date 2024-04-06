@@ -11,6 +11,14 @@ Drishti is an AI-powered smart glasses solution aimed at empowering the blind an
 - Glaucoma
 - Cataracts
 
+## Problems faced by visually impaired
+- Reading Impairement
+- Limited navigation in enclosed areas.
+- Difficulty recognizing distant people/objects
+- Decision-making hindered by environmental factors
+- Dependency on physical presence for assistance
+- Lack of contextual visual information
+
 ### Statistics:
 - Approximately 2.2 billion people globally were predicted to be blind or visually impaired in 2019, with nearly 1 billion affected by avoidable conditions.
 - Efforts in global health policies, preventative measures, and accessible eye care are crucial to address these issues.
