@@ -19,7 +19,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 8),
                 Text(
-                  'User Name',
+                  'John Doe',
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -27,7 +27,7 @@ class SettingsScreen extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'User ID',
+                  'JohnDoe',
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.black,
@@ -42,7 +42,7 @@ class SettingsScreen extends StatelessWidget {
                   child: DeviceStatusContainer(
                     icon: Icons.speaker_group_outlined,
                     heading: 'Device Name',
-                    subheading: 'VAACHAK',
+                    subheading: 'Drishti',
                   ),
                 ),
                 SizedBox(width: 16),
