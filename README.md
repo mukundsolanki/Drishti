@@ -65,8 +65,10 @@ To help with navigating, people can connect with visually challenged people with
 ## Volunteer App UI
 <div style="display: flex; justify-content: space-around">
   <img src="https://github.com/mukundsolanki/drishti/blob/91ad4027ce979aab2bdc88228c2a5277673cbd8b/drishticlient/assets/UI_1.gif" alt="UI_1" style="margin-right: 10px;" width="250" height="500">
-  <img src="https://github.com/mukundsolanki/drishti/blob/91ad4027ce979aab2bdc88228c2a5277673cbd8b/drishticlient/assets/UI_2.gif" alt="UI_1" style="margin-right: 10px;" width="250" height="500">
-  <img src="https://github.com/mukundsolanki/drishti/blob/0347e8f7b1c3843125d6b8c4500f6bca106e397f/drishticlient/assets/UI-3.gif" alt="UI_1" width="250" height="500">
+  <img src="https://github.com/mukundsolanki/drishti/blob/91ad4027ce979aab2bdc88228c2a5277673cbd8b/drishticlient/assets/UI_2.gif" alt="UI_1" style="margin-right: 10px;" width="250" height="500"></div>
+  
+## Drishti Client App  
+ <div> <img src="https://github.com/mukundsolanki/drishti/blob/0347e8f7b1c3843125d6b8c4500f6bca106e397f/drishticlient/assets/UI-3.gif" alt="UI_1" width="250" height="500">
 </div>
 
 
