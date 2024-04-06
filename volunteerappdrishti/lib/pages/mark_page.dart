@@ -304,7 +304,7 @@ void showToast(String message) {
 Future<void> sendDirections(List<Map<String, dynamic>> data) async {
   //var url = Uri.parse('http://192.168.95.246:8080/directions');
 
-  var url = Uri.parse('http://192.168.127.246:8080/directions');
+  var url = Uri.parse('http://192.168.50.246:8080/directions');
   var jsonData = jsonEncode(data);
 
   try {
@@ -331,7 +331,7 @@ Future<void> sendDirections(List<Map<String, dynamic>> data) async {
 void _sendCoordinatesToBackend(double latitude, double longitude) async {
   //var url = Uri.parse('http://192.168.127.246:8080/send-coordinates');
 
-  var url = Uri.parse('http:// 192.168.127.246:8080/send-coordinates');
+  var url = Uri.parse('http:// 192.168.50.246:8080/send-coordinates');
 
   var response = await http.post(
     url,
