@@ -1,6 +1,9 @@
 # **Drishti**
 
-_"Empowering the blind to navigate a sightless world – because every journey begins with a step, even if taken in the dark."_
+<img src="https://github.com/mukundsolanki/drishti/assets/113979215/9f450837-f04f-46ee-91d0-154bdc6cd359" alt="ui3" width="100%" >
+
+#### "_Empowering the blind to navigate a sightless world – because every journey begins with a step, even if taken in the dark._"
+
 
 Drishti is an **AI-powered smart glasses** solution aimed at empowering the blind and visually impaired to navigate the world around them. Through innovative features and community-building capabilities, **Drishti enhances accessibility and fosters inclusivity**.
 
@@ -40,6 +43,7 @@ Through end-to-end encrypted P2P communication channels, Drishti enables real-ti
   
 
 ## Our Solution:
+
 #### READ Feature:
 Drishti's READ feature utilizes **Context based Optical Character Recognition (OCR)** technology to convert text into context-based audio, enabling users to listen to text-based content such as mail, signboards, recipes, and more.
 This feature ensures that visually impaired individuals can access and comprehend textual information in their environment effortlessly.
