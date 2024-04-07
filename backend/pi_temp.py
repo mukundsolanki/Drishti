@@ -131,21 +131,21 @@ def send_text_to_server(text, server_url):
         print("An error occurred:", e)
         return "Failed"
 
-def convert_speech_to_text(audio_file_path,translate='en'):
-    print("Speech Conversion Started!")
-    try:
-        SECRET_KEY = ""
-        client = OpenAI(api_key=SECRET_KEY)
-        audio_file= open(audio_file_path, "rb")
-        transcript = client.audio.transcriptions.create(
-            model="whisper-1", 
-            file=audio_file,
-            language=translate
-        )
-        print(transcript.text)
-        return str(transcript.text)
-    except:
-        return "Failed",500
+# def convert_speech_to_text(audio_file_path,translate='en'):
+#     print("Speech Conversion Started!")
+#     try:
+#         # SECRET_KEY = ""
+#         client = OpenAI(api_key=SECRET_KEY)
+#         audio_file= open(audio_file_path, "rb")
+#         transcript = client.audio.transcriptions.create(
+#             model="whisper-1", 
+#             file=audio_file,
+#             language=translate
+#         )
+#         print(transcript.text)
+#         return str(transcript.text)
+#     except:
+#         return "Failed",500
 
 def record_and_save():
     filename = "audio_capture.wav"
